@@ -1,0 +1,8 @@
+first_name = input("please input your first name: ")
+last_name = input("please input your last name: ")
+age = int(input("please input your age: "))
+confidence = input("please express your confidence in programmers 0 - 100%: ")
+age_dog_years = int(age *7)
+print("Hello", first_name, last_name, "nice to meet you!")
+print("You are", age_dog_years, "in dog years")
+print("you might be ", age, "in human years, but in dog years you are", age_dog_years)
